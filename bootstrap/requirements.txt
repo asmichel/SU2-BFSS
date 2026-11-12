@@ -1,0 +1,8 @@
+# Python >= 3.10 (int.bit_count); the results were produced with Python 3.12 (solves) and 3.14 (figures).
+# Lower bounds are the versions used for the results.
+numpy>=2.5
+scipy>=1.18
+mpmath>=1.4
+clarabel>=0.11      # exploratory solver; certified bounds come from SDPB
+matplotlib>=3.11    # figures only (bfss/plots.py)
+# External: SDPB 3 (sdpb, pmp2sdp) with an MPI launcher, on the PATH, in $SDPB_BIN or in the Singularity image $SDPB_IMAGE.

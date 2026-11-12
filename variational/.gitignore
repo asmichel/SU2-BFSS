@@ -1,0 +1,10 @@
+# Keep local Python and notebook caches out of the research history.
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.py[cod]
+# Local environment and computed caches.
+.venv/
+.cache/
+# Records of runs (durable, too large for the history).
+runs/

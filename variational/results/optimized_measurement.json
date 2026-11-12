@@ -1,0 +1,58 @@
+{
+  "code_commit": "9b638a95070319b6662f797f3239f84c37ba51ac",
+  "state_file": "results/optimized_state.json",
+  "state_sha256": "63b335d2fd0f802ab97ae17ff3f76fade0b202ce02fa769018f6b067c9561c3c",
+  "precision_bits": 256,
+  "observables": {
+    "M": "0.99999999999999995431",
+    "E": "0.00021108173317345120098",
+    "Haux": "0.0034944654559597786073",
+    "F_lb": "0.990783940147860070875315553325610359579005855920588901845364",
+    "R2": "8.0655127095389811092",
+    "R4": "68.463130166528889360",
+    "R6": "612.34145657894093260",
+    "R8": "5793.5952247028014738",
+    "T": "17.107490130657093748877682734928129",
+    "E_over_T": "0.0000123385564779714189815026210902110257225161725089688489747238"
+  },
+  "canonical_blocks": {
+    "M": "1.0000000000000000000",
+    "T": "12.150677312176076377",
+    "u": "33.910318108435794871",
+    "Y": "-40.596957975998343529",
+    "Haux_T": "149.30268873664741081",
+    "Haux_u": "416.69174368383553652",
+    "Haux_Y": "-498.84563380450459779",
+    "R2": "11.355801453048083858",
+    "R4": "135.71516308044028560",
+    "R6": "1709.0355440674127584",
+    "R8": "22766.244332780948160"
+  },
+  "ball_radii": {
+    "M": "2.9e-62",
+    "E": "2.2e-59",
+    "Haux": "6.2e-58",
+    "R2": "1.1e-60",
+    "R4": "3.0e-59",
+    "R6": "9.8e-58",
+    "R8": "3.5e-56",
+    "canonical.M": "5.8e-62",
+    "canonical.T": "1.3e-59",
+    "canonical.u": "3.1e-60",
+    "canonical.Y": "3.0e-60",
+    "canonical.Haux_T": "5.3e-58",
+    "canonical.Haux_u": "1.1e-58",
+    "canonical.Haux_Y": "9.6e-59",
+    "canonical.R2": "1.6e-60",
+    "canonical.R4": "6.0e-59",
+    "canonical.R6": "2.7e-57",
+    "canonical.R8": "1.4e-55"
+  },
+  "derived": [
+    "F_lb from (36+8 sqrt(14))/25 and Haux",
+    "T from dilation times canonical T",
+    "E_over_T from E / T"
+  ],
+  "numeric_encoding": "CLI midpoints printed to 20 significant digits; ball_radii are arithmetic radii before decimal formatting and do not include printing error. Derived entries use these printed midpoints.",
+  "state_sha256_note": "2026-11-08: keys renamed to the paper's symbols (D -> Haux, F -> F_lb, D_eigenvalue -> Haux_eigenvalue, W -> u, DK/DV/DY -> Haux_T/Haux_u/Haux_Y); evaluated on the state file with sha256 5ea7985b6736de7ab9b34e80bbd84006d0038f3d75561d6aa0e9912ab30996c6"
+}

@@ -1,0 +1,56 @@
+{
+  "code_commit": "0e8bf60cc090e8417d97c558c16c423831e4b9ac",
+  "state_file": "results/seeded_state.json",
+  "state_sha256": "1d2a1c9eb98594c3f132714ca7fbe6cfe3d8690ff59f18ff7b46e5332bac7930",
+  "precision_bits": 256,
+  "observables": {
+    "M": "0.99999999999999992200",
+    "E": "4.1722743694437645132e-8",
+    "Haux": "8.2116479834593776837e-7",
+    "F_lb": "0.999997834317143665109755645624839534879038198423482685703566",
+    "R2": "8.0741928136238428454",
+    "R4": "68.752909531585425426",
+    "R6": "621.89660916615190957",
+    "R8": "6186.2088804808691031",
+    "T": "17.1124561981822550928"
+  },
+  "canonical_blocks": {
+    "M": "1.0000000000000000000",
+    "T": "5.7041520660607516976",
+    "u": "154.01210397011737389",
+    "Y": "-59.279286733818668303",
+    "Haux_T": "149.58185269318741797",
+    "Haux_u": "4038.7099984717745002",
+    "Haux_Y": "-1554.5002035965922302",
+    "R2": "24.222578440871528536",
+    "R4": "618.77618578426882884",
+    "R6": "16791.208447486101558",
+    "R8": "501082.91931895039735"
+  },
+  "ball_radii": {
+    "M": "4.0e-53",
+    "E": "3.0e-50",
+    "Haux": "9.0e-49",
+    "R2": "1.6e-51",
+    "R4": "4.7e-50",
+    "R6": "1.6e-48",
+    "R8": "5.9e-47",
+    "canonical.M": "8.1e-53",
+    "canonical.T": "8.2e-51",
+    "canonical.u": "2.1e-50",
+    "canonical.Y": "5.3e-51",
+    "canonical.Haux_T": "7.7e-49",
+    "canonical.Haux_u": "1.7e-48",
+    "canonical.Haux_Y": "3.5e-49",
+    "canonical.R2": "4.9e-51",
+    "canonical.R4": "4.2e-49",
+    "canonical.R6": "4.3e-47",
+    "canonical.R8": "4.8e-45"
+  },
+  "derived": [
+    "F_lb from (36+8 sqrt(14))/25 and Haux",
+    "T from dilation times canonical T"
+  ],
+  "numeric_encoding": "CLI midpoints printed to 20 significant digits; ball_radii are arithmetic radii before decimal formatting and do not include printing error. Derived entries use these printed midpoints.",
+  "state_sha256_note": "2026-11-08: keys renamed to the paper's symbols (D -> Haux, F -> F_lb, D_eigenvalue -> Haux_eigenvalue, W -> u, DK/DV/DY -> Haux_T/Haux_u/Haux_Y); evaluated on the state file with sha256 9b4b726b399fa268db2a6c554464a49b7e7193b1ff59c4b950205a803f4ce68d"
+}

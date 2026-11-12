@@ -1,0 +1,57 @@
+{
+  "format": "bfss-final-moments-v1",
+  "state_file": "coefficients.json",
+  "measure": "Lebesgue measure d^27 X, with the standard fermionic Hilbert-space inner product",
+  "dilation": "1449780288251223/1000000000000000",
+  "canonical_common_b": "1",
+  "interpretation": "Numerical evaluations of analytic moment formulas. Decimal strings retain output digits, not a rigorous error bound.",
+  "normalization": "M is the squared Cartesian norm of the saved physical expansion; all other observables are divided by M.",
+  "canonical_blocks": "Normalized contractions of the unit-dilation state: M,T,W,Y,DK,DV,DY,R2,R4. Apply the dilation laws in the paper (paper.tex).",
+  "supercharge_index": 1,
+  "fidelity": {
+    "time": "0",
+    "kappa": "(36+8*sqrt(14))/25",
+    "formula": "max(0,1-kappa*D)"
+  },
+  "primary": {
+    "M": "1.00000000000000136242853393364872651",
+    "E": "0.000211512422916907586699258612455237763",
+    "D": "0.00363053165097251198109438597988597958",
+    "F": "0.990425088640270657232537805010326506",
+    "R2": "8.06507832995500694356268801547186043",
+    "R4": "68.450770675223945961626438482908079",
+    "canonical_blocks": {
+      "M": "1",
+      "T": "11.7998614902669972245016031609029721",
+      "W": "35.9548955458201839532456866335806147",
+      "Y": "-41.1950260107266017566343172368516079",
+      "DK": "149.289792522770630491104595930094622",
+      "DV": "454.910671561372060146017729506193589",
+      "DY": "-521.198112836951933498772327480205172",
+      "R2": "11.6925915859708621669666002865075921",
+      "R4": "143.874134277262144633272534414295961"
+    },
+    "Q": "0"
+  },
+  "alternative": {
+    "M": "0.999999749271189208712937332943741339",
+    "E": "0.00021729846581906125780268320215064279",
+    "D": "0.00379844834467333513585943737351425228",
+    "F": "0.989982236845390002350510712556538474",
+    "R2": "8.06507845127681187681196355835028255",
+    "R4": "68.4507808423726873792577101134572458",
+    "canonical_blocks": {
+      "M": "1",
+      "T": "11.7998727244123160875485202836753425",
+      "W": "35.9548880619391925456039110597303559",
+      "Y": "-41.1950343674480169921701816378521613",
+      "DK": "149.289955376481703273121529271591097",
+      "DV": "454.910640333327227042066236614658433",
+      "DY": "-521.198086109611155230073992776753703",
+      "R2": "11.692591761860823494251383559598909",
+      "R4": "143.874155647214722378028244692640279"
+    },
+    "Q": "0"
+  },
+  "supercharge_index_convention": "One-based index in the interleaved real order q0,p0,q1,p1,...,q7,p7; alpha=1 is q0."
+}

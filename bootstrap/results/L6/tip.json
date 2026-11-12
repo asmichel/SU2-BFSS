@@ -1,0 +1,25 @@
+{
+ "objective": "R2",
+ "status": "found primal-dual optimal solution",
+ "value": "6.851889192571592239328704841104439985051",
+ "primal": "6.851889192571592239328704841104439985051",
+ "dual": "6.851889192571592239328704841124663583721",
+ "gap": "2.02e-29",
+ "iterations": 261,
+ "feasible": true,
+ "verified": true,
+ "bound": true,
+ "precision": 1024,
+ "seconds": {
+  "write": 0.2,
+  "sdpb": 14.6,
+  "verify": 0.0
+ },
+ "certificate": {
+  "beta": "6.85188919257159223932870484111",
+  "residual_l1": 7.884825969954326e-59,
+  "bound": "6.8518891925715915",
+  "Z": 1e+40,
+  "min_pivot": 1e-60
+ }
+}

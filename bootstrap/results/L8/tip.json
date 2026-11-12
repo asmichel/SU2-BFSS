@@ -1,0 +1,26 @@
+{
+ "objective": "R2",
+ "status": "maxIterations exceeded",
+ "value": "7.498628730900346575339988462493177684048",
+ "primal": "7.498628730900346575339988462493177684048",
+ "dual": "7.49862873090034644325960633090292126516",
+ "gap": "1.32e-16",
+ "iterations": 1000,
+ "feasible": true,
+ "verified": false,
+ "bound": true,
+ "precision": 1024,
+ "seconds": {
+  "write": 0.2,
+  "sdpb": 620.5,
+  "verify": 0.3
+ },
+ "certificate": {
+  "beta": "7.49862873090034644753525021503",
+  "residual_l1": 5.249529704236063e-57,
+  "bound": "7.498628730900346",
+  "Z": 1e+40,
+  "min_pivot": 1e-60
+ },
+ "strict": "0.9022865636040692"
+}
