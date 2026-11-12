@@ -1,0 +1,10 @@
+[submodule "variational"]
+	path = variational
+	url = git@github.com:asmichel/bfss-release-code.git
+[submodule "bootstrap"]
+	path = bootstrap
+	url = git@github.com:asmichel/bfss-bootstrap-release-code.git
+[submodule "site"]
+	path = site
+	url = git@github.com:asmichel/SU2-BFSS-site.git
+	branch = master

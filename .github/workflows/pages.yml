@@ -1,0 +1,47 @@
+# Publish the site, the submodule site/ (the private repository SU2-BFSS-site) at
+# its pinned commit, unchanged to GitHub Pages. The program submodules are not
+# fetched.
+name: Publish site
+
+on:
+  push:
+    branches: [master]
+    paths: [site, .github/workflows/pages.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - id: pin
+        run: echo "commit=$(git rev-parse HEAD:site)" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v7
+        with:
+          repository: asmichel/SU2-BFSS-site
+          ref: ${{ steps.pin.outputs.commit }}
+          ssh-key: ${{ secrets.SITE_DEPLOY_KEY }}
+          path: published
+          persist-credentials: false
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: published
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
